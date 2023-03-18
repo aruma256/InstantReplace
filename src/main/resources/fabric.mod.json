@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "instantreplace",
+  "version": "${version}",
+
+  "name": "InstantReplace",
+  "description": "",
+  "authors": [
+    "aruma256",
+    "LOTqwerty"
+  ],
+  "contact": {
+  },
+
+  "license": "",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.aruma256.instantreplace.InstantReplace"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
